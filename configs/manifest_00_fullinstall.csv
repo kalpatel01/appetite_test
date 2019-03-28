@@ -2,3 +2,8 @@ CommitID,Application,DeploymentMethod,Whitelist,Blacklist
 c12daa2b,AaSplunk,UpgradeSplunk,splunk-.*c$,
 c12daa2b,App01,StandAlone,splunk-.*c$,"splunk-idx.*c$"
 5edb0499,App02,StandAlone,splunk-.*c$,"splunk-idx.*c$"
+21d4bd40,App03,ClusterMaster,splunk-cm.*c$,
+21d4bd40,App04,ClusterMasterSlave,splunk-cm.*c$,
+21d4bd40,App05,Deployer,splunk-dcm.*c$,
+21d4bd40,App06,DeploymentServer,splunk-ds.*c$,
+21d4bd40,App07,StandAlone,splunk-.*c$,"splunk-cm.*c$,splunk-lm.*c$"
